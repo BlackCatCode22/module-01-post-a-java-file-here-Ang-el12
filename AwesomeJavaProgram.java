@@ -1,41 +1,53 @@
-public class AwesomeJavaProgram {
-        public static void main(String[] args) {
 
-/*            int myInt = 7;
-            double shoeSize = 9.5;
-            char myInitial = 'J';
 
-            String myName = "John";
+ public class AwesomeJavaProgram {
+     public static void main(String[] args) {
 
-            double result = myInt * shoeSize;
+      /*   int myInt = 7;
+         double shoeSize = 9.5;
+         char myInitial = 'J';
 
-            System.out.println(myName.toUpperCase());
-        }
-}*/
+         String myName = "John";
 
-//            CODE EXAMPLE COMPLETE /**/
+         double result = myInt * shoeSize;
 
-            for (int i = 0; i < 10; i++) {
-              System.out.println("These pretzels are making me thirsty");
-          }
-        }
-        private static String printName(String name, int number) {
+         System.out.println(myName.toUpperCase());
+     }
+ } */
 
-            if (number != 5) {
-                System.out.println("This guy is awesome");
-            }
 
-            else if (name.equals("Larry")) {
-                System.out.println("This guy is OK I guess");
-            }
+//            CODE EXAMPLE 1 COMPLETE /**/
 
-            else { System.out.println("I don't know this guy at all");
-            }
+      /*  private static String printName(String name, int number) {
 
-            return "My name is " + name;
-        }
-    }
+             if (number != 5) {
+                 System.out.println("This guy is awesome");
+             }
+
+             else if (name.equals("Larry")) {
+                 System.out.println("This guy is OK I guess");
+             }
+
+             else { System.out.println("I don't know this guy at all");
+             }
+
+             return "My name is " + name;
+         }
+     } */
 
 //        CODE EXAMPLE 2 COMPLETE /**/
+
+         Cat myCat = new Cat();
+         myCat.name = "Fred";
+         myCat.age = 6;
+
+         Cat anotherCat = new Cat();
+         anotherCat.name = "Stella";
+         anotherCat.age = 5;
+
+         System.out.println(myCat.age);
+
+     }
+ }
 
 
