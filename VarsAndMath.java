@@ -30,9 +30,5 @@ public class VarsAndMath {
         System.out.println("\n\nThe new sum of " + a + " and " + b + " is: " + sum + "\n\n");
 
 
-
-
-
-
     }
 }
